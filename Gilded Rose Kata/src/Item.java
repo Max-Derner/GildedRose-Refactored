@@ -1,4 +1,4 @@
-public abstract class Item {
+public abstract class Item implements Update{
     public String name;
 
     public int sellIn;
