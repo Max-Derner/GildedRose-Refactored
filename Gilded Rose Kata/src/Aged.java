@@ -1,4 +1,4 @@
-public class Aged extends Item implements Update{
+public class Aged extends Item{
     public Aged(String name, int sellIn, int quality) {
         super(name,sellIn,quality);
     }
