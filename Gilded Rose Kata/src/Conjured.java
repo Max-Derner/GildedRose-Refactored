@@ -1,4 +1,4 @@
-public class Conjured extends Item  implements Update{
+public class Conjured extends Item{
     public Conjured(String name, int sellIn, int quality) {
         super(name,sellIn,quality);
     }
@@ -7,6 +7,9 @@ public class Conjured extends Item  implements Update{
         quality-=2;
         if(sellIn<0){
             quality-=2;
+        }
+        if(quality<0){
+            quality=0;
         }
     }
 }
