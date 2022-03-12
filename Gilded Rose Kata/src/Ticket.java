@@ -1,4 +1,4 @@
-public class Ticket extends Item  implements Update{
+public class Ticket extends Item{
     public Ticket(String name, int sellIn, int quality) {
         super(name,sellIn,quality);
     }
@@ -14,6 +14,9 @@ public class Ticket extends Item  implements Update{
             if(sellIn<=5){
                 quality++;
             }
+        }
+        if(quality>50){
+            quality=50;
         }
     }
 }
