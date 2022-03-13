@@ -3,7 +3,6 @@ public class Ticket extends Item{
         super(name,sellIn,quality);
     }
     public void update(){
-        sellIn--;
         if(sellIn<0){
             quality=0;
         }else{
@@ -18,5 +17,6 @@ public class Ticket extends Item{
         if(quality>50){
             quality=50;
         }
+        sellIn--;
     }
 }
