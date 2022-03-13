@@ -4,7 +4,7 @@ public class Conjured extends Item{
     }
     public void update(){
         quality-=2;
-        if(sellIn<0){
+        if(sellIn<=0){
             quality-=2;
         }
         if(quality<0){
