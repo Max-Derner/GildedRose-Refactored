@@ -4,7 +4,6 @@ public class Regular extends Item{
     }
 
     public void update(){
-        sellIn--;
         quality--;
         if(sellIn<0){
             quality--;
@@ -12,5 +11,6 @@ public class Regular extends Item{
         if(quality<0){
             quality=0;
         }
+        sellIn--;
     }
 }
