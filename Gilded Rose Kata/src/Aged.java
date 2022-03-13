@@ -4,7 +4,7 @@ public class Aged extends Item{
     }
     public void update(){
         quality++;
-        if(sellIn<0){
+        if(sellIn<=0){
             quality++;
         }
         if(quality>50){
