@@ -18,6 +18,3 @@ The Item class and each of it's subclasses now implement an update function so t
 There may be a rookie mistake or two but forgive me as I am learning.
 
 Also, if you found this there is a good chance I asked you to be here. So thank you, really. I very much apreciate you coming over to look my code up and down.
-
-
-p.s. I think I found and fixed a bug in the original code. The requirments clearly specify that tickets with 10 days or less to sell increase in quality by 2. However, the original code only begins this behaviour with 9 days or less.
