@@ -3,7 +3,6 @@ public class Aged extends Item{
         super(name,sellIn,quality);
     }
     public void update(){
-        sellIn--;
         quality++;
         if(sellIn<0){
             quality++;
@@ -11,5 +10,6 @@ public class Aged extends Item{
         if(quality>50){
             quality=50;
         }
+        sellIn--;
     }
 }
