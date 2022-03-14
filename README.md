@@ -4,7 +4,7 @@ This is my best go (so far!) of refactoring Terry Hughes' Java GildedRose Kata. 
 
 This is a Kata I have completed from https://github.com/emilybache/GildedRose-Refactoring-Kata
 
-I have done my best to refactor the code. However, in order to get it working I threw the rules to the wind and changed the Item class because I've never met a goblin who kept their word.
+I have done my best to refactor the code. However, in order to get it working the way I wanted I threw the rules to the wind and changed the Item class because I've never met a goblin who kept their word.
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
