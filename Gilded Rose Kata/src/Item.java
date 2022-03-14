@@ -1,4 +1,4 @@
-public abstract class Item implements Update{
+public abstract class Item{
     public String name;
 
     public int sellIn;
@@ -11,9 +11,7 @@ public abstract class Item implements Update{
         this.quality = quality;
     }
 
-    public void update(){
-        //fuck goblins
-    }
+    public abstract void update();//fuck goblins, I'll change this if I want to change it
 
     @Override
     public String toString() {
